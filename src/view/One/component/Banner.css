@@ -1,0 +1,19 @@
+.banner {
+  height: 150px;
+  background-color: #ff6633;
+  border-bottom: 1px solid #ccc;
+}
+
+.swiper-slide{
+  height: 150px;
+}
+
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff6633;
+}

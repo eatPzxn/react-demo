@@ -1,0 +1,32 @@
+.tabbar {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+}
+
+.tabbar_inner {
+  display: flex;
+  height: 100%;
+}
+
+.tab {
+  color: #999;
+  background: no-repeat center 10px/20px;
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  height: 100%;
+  font-size: 12px;
+}
+
+.active {
+  color: #ff6633;
+}
+.tab i {
+  font-size: 20px;
+  padding: 7px 0 3px 0;
+}

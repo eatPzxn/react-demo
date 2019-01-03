@@ -1,0 +1,46 @@
+.sreach {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  /* align-items:stretch; */
+}
+
+.sreach i {
+  font-size: 20px;
+  border :1px solid #ccc;
+  border-radius: 5px;
+  color: #ff6633;
+  /* flex-shrink: 0; */
+}
+
+
+.sreach input {
+
+  width: 70%;
+  height: 20px;
+  line-height: 20px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px 0 25px;
+  background: url(../../../static/icons/Search.png) no-repeat 5px center;
+}
+
+/* .sreach input:focus{
+  padding: 0 25px 0 10px;
+  background: url(../../../static/icons/Search.png) no-repeat clac(70% - 5px) center;
+} */
+
+.sreach button{
+  display: inline-block;
+  margin-left: 3%;
+  height:20px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 12px;
+  background-color: #ff6633;
+  border-radius: 5px;
+}

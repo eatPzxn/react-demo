@@ -1,0 +1,26 @@
+.itemlist {
+  padding: 10px 5px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.itemlist_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemlist_child {
+  width: 25%;
+  height: 70px;
+  font-size: 12px;
+}
+
+.itemlist_icon {
+  color: #ff6633;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto 5px;
+}
